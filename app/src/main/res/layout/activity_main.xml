@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent"
+android:background="@drawable/background"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="16dp"
+tools:context=".MainActivity">
+<TextView
+    android:id="@+id/header"
+    android:text="@string/crud_android_mysql"
+    android:fontFamily="@font/gotham"
+    android:textColor="#ffffff"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/header2"
+        android:text="@string/modul_6_pemrograman_mobile"
+        android:fontFamily="@font/calibri"
+        android:textColor="#9affffff"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textnama"
+        android:layout_below="@id/header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle">
+        <EditText
+            android:id="@+id/editTextNama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/calibri"
+            android:hint="@string/masukan_nama"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textjurusan"
+        android:layout_below="@id/textnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle">
+        <EditText
+            android:id="@+id/editTextJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/calibri"
+            android:hint="@string/masukan_jurusan"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textemail"
+        android:layout_below="@id/textjurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle">
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/calibri"
+            android:hint="@string/masukan_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_below="@id/textemail"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshapewhitebg"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tambah_mahasiswa"
+        android:id="@+id/buttonAdd" />
+    <Button
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshapewhitebg"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/daftar_mahasiswa"
+        android:id="@+id/buttonView" />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:text="@string/_2020_ricky_oktavian"
+        android:fontFamily="@font/calibri"
+        android:textColor="#9affffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

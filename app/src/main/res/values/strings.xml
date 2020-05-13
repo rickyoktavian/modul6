@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">modul6</string>
+    <string name="daftar_mahasiswa">Daftar Mahasiswa</string>
+    <string name="_2020_ricky_oktavian">© 2020 Ricky Oktavian</string>
+    <string name="crud_android_mysql">CRUD Android MySQL</string>
+    <string name="modul_6_pemrograman_mobile">Modul 6 Pemrograman Mobile</string>
+    <string name="tambah_mahasiswa">Tambah Mahasiswa</string>
+    <string name="masukan_jurusan">Masukan Jurusan</string>
+    <string name="masukan_nama">Masukan Nama</string>
+    <string name="masukan_email">Masukan Email</string>
+    <string name="update_data">Update Data</string>
+    <string name="hapus_mahasiswa">Hapus Mahasiswa</string>
+    <string name="update_mahasiswa">Update Mahasiswa</string>
+    <string name="id_mahasiswa">ID Mahasiswa</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="email">Email</string>
+</resources>

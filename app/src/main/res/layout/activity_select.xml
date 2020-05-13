@@ -1,0 +1,115 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:background="@drawable/background"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="16dp"
+android:paddingBottom="16dp"
+tools:context=".MainActivity">
+<TextView
+    android:id="@+id/header"
+    android:text="@string/update_data"
+    android:fontFamily="@font/gotham"
+    android:textColor="#ffffff"
+    android:textSize="25sp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="35dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:textColorHint="#96ffffff"
+    android:theme="@style/EditScreenTextInputLayoutStyle">
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/calibri"
+        android:hint="@string/id_mahasiswa"
+        android:inputType="text|number"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:autofillHints="" />
+</com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle">
+        <EditText
+            android:id="@+id/editTextNama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/calibri"
+            android:hint="@string/nama_mahasiswa"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle">
+        <EditText
+            android:id="@+id/editTextJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/calibri"
+            android:hint="@string/jurusan"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle">
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/calibri"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshapewhitebg"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_mahasiswa"
+        android:id="@+id/buttonUpdate" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshapewhitebg"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hapus_mahasiswa"
+        android:id="@+id/buttonDelete" />
+</LinearLayout>
